@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    text-align: center;
+    background-color: black;
+    color: white;
+   padding: 15px;
+}
+.container{
+    text-align: center;
+    margin: 20px; ;
+}
+.item-one,.item-two,.item-three,.item-four{
+    display:inline-block;
+    margin: 2px;
+    border: solid black 2px;
+    vertical-align: top;
+    width: 220px;
+
+}
+.item-one__img,.item-two__img,.item-three__img,.item-four__img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+.item-one__title,.item-one__para,.item-two__title,.item-two__para,.item-three__title,.item-three__para,.item-four__title,.item-four__para{
+    padding: 2px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.item-one__button,.item-two__button,.item-three__button,.item-four__button{
+padding: 5px;
+background-color: black;
+color: white;
+border: none;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 15PX;
+
+}
+.footer form {
+    margin-top:10px ;
+}
+.footer label{
+    text-align: right;
+display: inline-block;
+width: 60px;
+}
+.footer input{
+    margin: 3px;
+    padding: 5px;
+    width: 200px;
+}
+.footer__button{
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    width: 400px;
+    margin: 15px;
+    
+}
